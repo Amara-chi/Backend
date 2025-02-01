@@ -10,11 +10,7 @@ public class Course {
 
     @Id
     private String id;
-
     private String courseName;
-
-
-    public Course(){}
 
     public Course(String id, String courseName) {
         this.id = id;

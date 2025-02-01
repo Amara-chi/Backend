@@ -12,18 +12,13 @@ import java.util.List;
 public class Chat {
     @Id
     private String id;
-
     private String senderId;
     private String senderProfile;
     private String channelId;
-
     private String message;
     private String attachment;
-
     private AttachmentType attachmentType;
-
     private MessageType messageType;
-
     private LocalDateTime timestamp;
     private List<Object> readReceipt;
 
